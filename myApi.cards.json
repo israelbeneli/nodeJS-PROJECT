@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "65083155dad153e1887a941a"
+  },
+  "title": "mustMagnet",
+  "subtitle": "Magnet for all",
+  "description": "we make magnet for all ",
+  "phone": "0546261926",
+  "email": "mustmagnet@gmail.com",
+  "web": "www.mustmag.net",
+  "image": {
+    "url": "123dfdsfdsggs.dsf4",
+    "alt": "5678dsddd",
+    "_id": {
+      "$oid": "650830f8dad153e1887a940f"
+    }
+  },
+  "address": {
+    "state": "sadasdsd",
+    "country": "sdsdsdsd",
+    "city": "dsfsdfdsf",
+    "street": "sdfdsfsdf",
+    "houseNumber": 43,
+    "zip": 12334,
+    "_id": {
+      "$oid": "650830f8dad153e1887a9410"
+    }
+  },
+  "bizNumber": 770039790,
+  "user_id": {
+    "$oid": "65082fbe10b1a0a4398c845a"
+  },
+  "likes": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650831bbdad153e1887a941d"
+  },
+  "title": "myBusinessCard",
+  "subtitle": "business",
+  "description": "we do all the jobs ",
+  "phone": "0546261926",
+  "email": "all@gmail.com",
+  "web": "www.all.com",
+  "image": {
+    "url": "123dfdsfdddsggs.dsf4",
+    "alt": "5678dsddd",
+    "_id": {
+      "$oid": "650830f8dad153e1887a940f"
+    }
+  },
+  "address": {
+    "state": "sadasdsd",
+    "country": "sdsdsdsd",
+    "city": "dsfsdfdsf",
+    "street": "sdfdsfsdf",
+    "houseNumber": 43,
+    "zip": 12334,
+    "_id": {
+      "$oid": "650830f8dad153e1887a9410"
+    }
+  },
+  "bizNumber": 942013623,
+  "user_id": {
+    "$oid": "65082fbe10b1a0a4398c845a"
+  },
+  "likes": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650831d1dad153e1887a9420"
+  },
+  "title": "myBusinessCard2",
+  "subtitle": "business2",
+  "description": "we do all the jobs2 ",
+  "phone": "0546261926",
+  "email": "all2@gmail.com",
+  "web": "www.all2.com",
+  "image": {
+    "url": "123dfdsfdddsggs.dsf4",
+    "alt": "5678dsddd",
+    "_id": {
+      "$oid": "650830f8dad153e1887a940f"
+    }
+  },
+  "address": {
+    "state": "sadasdsd",
+    "country": "sdsdsdsd",
+    "city": "dsfsdfdsf",
+    "street": "sdfdsfsdf",
+    "houseNumber": 43,
+    "zip": 12334,
+    "_id": {
+      "$oid": "650830f8dad153e1887a9410"
+    }
+  },
+  "bizNumber": 225802844,
+  "user_id": {
+    "$oid": "65082fbe10b1a0a4398c845a"
+  },
+  "likes": [],
+  "__v": 0
+}]

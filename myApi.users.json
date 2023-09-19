@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "65082f9f10b1a0a4398c8457"
+  },
+  "name": {
+    "first": "ADMIN",
+    "last": "admin",
+    "middle": "",
+    "_id": {
+      "$oid": "65082f5910b1a0a4398c844e"
+    }
+  },
+  "isBusiness": false,
+  "isAdmin": true,
+  "phone": "0543334422",
+  "email": "admin@admin.com",
+  "password": "$2a$12$UX0r5t2E5yqe/vpYVdtVfe8sCiLzXqjMGvKFQkIhtFCfOjqaSaeTe",
+  "address": {
+    "city": "jerusalem",
+    "street": "hatnufa",
+    "houseNumber": 17,
+    "country": "Israel",
+    "_id": {
+      "$oid": "65082f5910b1a0a4398c844f"
+    }
+  },
+  "image": {
+    "url": "picabaypicture",
+    "alt": "the picture",
+    "_id": {
+      "$oid": "65082f5910b1a0a4398c8450"
+    }
+  },
+  "loginAttempts": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65082fbe10b1a0a4398c845a"
+  },
+  "name": {
+    "first": "Business",
+    "last": "business",
+    "middle": "",
+    "_id": {
+      "$oid": "65082f5910b1a0a4398c844e"
+    }
+  },
+  "isBusiness": false,
+  "isAdmin": true,
+  "phone": "0543334422",
+  "email": "business@business.com",
+  "password": "$2a$12$sNm3loxP2cTZPXoABEJiRe74ZAdQ2.hnIgAWV6pGpmfzVhjuMs5zi",
+  "address": {
+    "city": "jerusalem",
+    "street": "hatnufa",
+    "houseNumber": 17,
+    "country": "Israel",
+    "_id": {
+      "$oid": "65082f5910b1a0a4398c844f"
+    }
+  },
+  "image": {
+    "url": "picabaypicture",
+    "alt": "the picture",
+    "_id": {
+      "$oid": "65082f5910b1a0a4398c8450"
+    }
+  },
+  "loginAttempts": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65082ff910b1a0a4398c845d"
+  },
+  "name": {
+    "first": "Regular",
+    "last": "regular",
+    "middle": "",
+    "_id": {
+      "$oid": "65082f5910b1a0a4398c844e"
+    }
+  },
+  "isBusiness": false,
+  "isAdmin": false,
+  "phone": "0543334422",
+  "email": "regular@regular.com",
+  "password": "$2a$12$hnfTxJui4psfZcHroZDcp.nUQ1QYWg3QARWvYmKrye2uUdYGtx40u",
+  "address": {
+    "city": "jerusalem",
+    "street": "hatnufa",
+    "houseNumber": 17,
+    "country": "Israel",
+    "_id": {
+      "$oid": "65082f5910b1a0a4398c844f"
+    }
+  },
+  "image": {
+    "url": "picabaypicture",
+    "alt": "the picture",
+    "_id": {
+      "$oid": "65082f5910b1a0a4398c8450"
+    }
+  },
+  "loginAttempts": 0,
+  "__v": 0
+}]
