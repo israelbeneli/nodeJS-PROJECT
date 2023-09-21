@@ -2,11 +2,13 @@ const jwt = require("jsonwebtoken");
 const config = require("config")
 const {User} = require("../models/User")
 const {Card} = require("../models/Card")
+const logger = require("../logs/logger")
 function authMW(...roles){
     return async (req,res,next)=>{ 
             const token = req.header("x-auth-token");
              if(!token){
                 res.status(401).send("access denied . No token");
+                logger.error("access denied . No token")
             }
             try{
                 const decode = jwt.decode(token,config.get("auth.JWT_SECRET"));
@@ -42,8 +44,10 @@ function authMW(...roles){
                     return;
                 }
                 res.status(404).send(`to user not have a ${roles} permissions`)
+                logger.error(`to user not have a ${roles} permissions`)
             }catch{
                 res.status(400).send("Invalid Token")
+                logger.error("Invalid Token")
                 return;
             }
     }

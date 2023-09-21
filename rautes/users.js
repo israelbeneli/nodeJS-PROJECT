@@ -54,6 +54,7 @@ rauter.post("/login", async (req,res)=>{
         await User.findOneAndUpdate({email:req.body.email},user);
       },150000)
       res.status(400).send("Access is denied for 15 minets")
+      logger.error("Access is denied for 15 minets")
       return;
     }
   user.loginAttempts=0;
@@ -73,6 +74,7 @@ rauter.get("/:id",authMW("isAdmin","curentUser"),async(req,res)=>{
     }
   catch(error){
       res.status(404).send("user not Found");
+      logger.error("user not Found")
     }
   }
 );
@@ -86,18 +88,21 @@ rauter.put("/:id",authMW("curentUser"),async(req,res)=>{
   const {error} = ValidateUser(req.body);
   if (error){
     res.status(400).json(error.details[0].message)
+    logger.error(error.details[0].message)
     return;
   }
   try{
       const user = await User.findOneAndUpdate({_id:req.params.id},{...req.body},{new:true});
   if(!user){
     res.status(404).send("No user with this ID")
+    logger.error("No user with this ID")
     return;
   }
   res.send(user);
   }
   catch(err){
     res.status(404).send(err.message)
+    logger.error(err.message)
   }
 })
 //PATCH users/:id change the "isBusiness" . only the current user
@@ -111,6 +116,7 @@ rauter.patch("/:id",authMW("curentUser"),async(req,res)=>{
   }
   catch{
     res.status(404).send("not exist")
+    logger.error("not exist")
   }
 })
 //DELETE users/:id delete the user. only the current user.
@@ -121,6 +127,7 @@ rauter.delete("/:id",authMW("isAdmin","curentUser"),async(req,res)=>{
   }
   catch{
     res.status(404).send("user not exist")
+    logger.error("user not exist")
   }
 })
 function ValidateAuth(user){

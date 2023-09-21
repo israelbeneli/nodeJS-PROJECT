@@ -1,2 +1,3 @@
 {"level":"ERROR","time":"2023-09-19T08:57:23.678Z","pid":3740,"hostname":"LAPTOP-NMVT9HQ2","msg":"Error message :this email is exist"}
 {"level":"ERROR","time":"2023-09-19T08:58:28.714Z","pid":18052,"hostname":"LAPTOP-NMVT9HQ2","msg":"Error message :this email is exist"}
+{"level":"ERROR","time":"2023-09-19T17:30:38.866Z","pid":4820,"hostname":"LAPTOP-NMVT9HQ2","msg":"to user not have a isAdmin permissions"}
